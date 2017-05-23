@@ -30,7 +30,6 @@ public class BlankApp extends Application {
         ScreensController mainContainer = new ScreensController();
 
         mainContainer.loadScreen("MainFrame", "/main/gui/MainFrame.fxml");
-        mainContainer.loadScreen("Measurement", "/main/gui/Measurement.fxml");
 
         mainContainer.setScreen(this.screen1ID);
         Group root = new Group();
